@@ -1,10 +1,10 @@
-pennies_input=int(input("How many pennies?"))
+pennies=int(input("How many pennies?"))
 
-dimes_input=int(input("How many dimes?"))
+dimes=int(input("How many dimes?"))
 
-nickels_input=int(input("How many nickels?"))
+nickels=int(input("How many nickels?"))
 
-quarters_input=int(input("How many quarters?"))
+quarters=int(input("How many quarters?"))
 
-total_money=(quarters_input*.25)+(nickels_input*.05)+(pennies_input*.01)+(dimes_input*.1)
-print(total_money)
+total=(quarters*.25)+(nickels*.05)+(pennies*.01)+(dimes*.1)
+print(total)
